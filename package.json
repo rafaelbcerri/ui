@@ -3,7 +3,10 @@
   "version": "2.1.10",
   "main": "dist/laboratoria-ui.cjs.js",
   "module": "dist/laboratoria-ui.esm.js",
-  "repository": "https://github.com/Laboratoria/ui.git",
+  "engines": {
+    "node": "10.15.1",
+    "yarn": "1.13.0"
+  },
   "author": "Laboratoria Devs Team",
   "license": "MIT",
   "scripts": {
@@ -13,11 +16,6 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook",
     "heroku-postbuild": "start-storybook"
-  },
-  "engines": {
-    "node": "10.15.1",
-    "npm": "6.4.1",
-    "yarn": "1.13.0"
   },
   "dependencies": {
     "@babel/cli": "^7.0.0",
