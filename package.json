@@ -15,8 +15,10 @@
     "heroku-postbuild": "start-storybook"
   },
   "engines": {
-    "node": "10.3.0"
-  }
+    "node": "10.15.1",
+    "npm": "6.4.1",
+    "yarn": "1.13.0"
+  },
   "dependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.3.4",
