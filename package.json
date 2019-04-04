@@ -15,7 +15,7 @@
     "test": "./node_modules/.bin/eslint src/**/*.jsx && react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "storybook": "start-storybook",
-    "heroku-postbuild": "build-storybook -c .storybook -o .out"
+    "heroku-postbuild": "build-storybook -c .storybook -o public"
   },
   "dependencies": {
     "@babel/cli": "^7.0.0",
