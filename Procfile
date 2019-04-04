@@ -1,1 +1,1 @@
-web: yarn run buildaijojiajiosa
+web: yarn run storybook
