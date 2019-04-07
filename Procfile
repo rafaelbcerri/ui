@@ -1,1 +1,1 @@
-
+web: echo "Server initialization"
