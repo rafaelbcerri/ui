@@ -1,1 +1,1 @@
-web: pwd
+web: yarn start-storybook
