@@ -10,12 +10,9 @@
   "author": "Laboratoria Devs Team",
   "license": "MIT",
   "scripts": {
-    "start": "react-scripts start",
-    "dist": "rollup -c",
-    "test": "./node_modules/.bin/eslint src/**/*.jsx && react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "storybook": "start-storybook",
-    "build": "build-storybook -o public"
+    "start": "start-storybook",
+    "build": "build-storybook -o public",
+    "dist": "rollup -c"
   },
   "dependencies": {
     "@babel/cli": "^7.0.0",
@@ -40,10 +37,10 @@
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.10.0",
+    "http-server": "^0.11.1",
     "prop-types": "^15.6.2",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
-    "react-scripts": "2.1.5",
     "rollup": "^1.4.1",
     "rollup-plugin-babel": "^4.0.2",
     "rollup-plugin-commonjs": "^9.1.3",
