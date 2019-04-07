@@ -1,1 +1,1 @@
-web: echo "Server initialization"
+web: node src/index.js
