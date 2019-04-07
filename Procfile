@@ -1,2 +1,1 @@
-build: yarn run build-production
-web: bin/boot
+web: yarn run build-production
